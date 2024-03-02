@@ -2,14 +2,36 @@
 
 ## Setup Instructions
 
-1. Install open cv using command-pip install opencv-python
-2. Create a directory name "data" in pycharm
-2.1 Change user_id for different person's face in data_collection
-3. Run data_collection.py
-4.Install numpy and PIL using command-
--pip install numpy
--pip install pillow
-5.Run Classifier.py
-6.create a new if condition for another user ID if text for person's identity(preferrable Name) and user id
-7.Run face_recognition
+1. **Install OpenCV:**
+*pip install opencv-python*
 
+2. **Create Data Directory:**
+- Create a directory named "data" in your PyCharm project.
+- Update `user_id` in `data_collection` for different person's faces.
+  ```
+  cd your_project_directory
+  mkdir data
+  ```
+
+3. **Run Data Collection:**
+*python data_collection.py*
+
+
+4. **Install Dependencies:**
+*pip install numpy*
+*pip install pillow*
+
+
+5. **Run Classifier:**
+*python Classifier.py*
+
+
+6. **Add Condition for New User:**
+- In `Classifier.py`, create a new `if` condition for another user ID.
+- Update the text for the person's identity (preferably the name) and user ID.
+
+7. **Run Face Recognition:**
+*python face_recognition.py*
+
+
+Feel free to copy and paste these commands for a smooth setup of your face recognition project in PyCharm. Let me know if you need any further assistance!
